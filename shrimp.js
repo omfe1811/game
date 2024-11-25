@@ -1,5 +1,5 @@
 //weapons
-let weapons = [straw, fishingrod, trident, harpoon]
+let weapons = ["plastic straw", "fishing rod", "trident", "harpoon", "seaweed whip", "fishing net"]
 
 //Attack Functions
 let crabStrength=Math.floor(Math.random()*10);
