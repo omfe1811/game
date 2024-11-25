@@ -1,5 +1,5 @@
 //weapons
-let weapons = [straw, fishingrod, axe, ]
+let weapons = [straw, fishingrod, trident, harpoon]
 
 //Attack Functions
 let crabStrength=Math.floor(Math.random()*10);
@@ -24,5 +24,3 @@ function eatKrill(){
 //calling the functions
 crabAttack();
 eatKrill();
-git remote add origin git@github.com:omfe1811/game.git
-echo "# game" >> README.md
