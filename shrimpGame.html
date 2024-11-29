@@ -1,64 +1,257 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>3x3 Dungeon Game</title>
-  <link rel="stylesheet" type="text/css" href="shrimpGame.css">
-</head>
-<body>
+  <head>
+    <title>3x3 Dungeon Game</title>
+    <link rel="stylesheet" type="text/css" href="shrimpGame.css" />
+  </head>
+  <body>
     <!-- group: The game -->
-<div class="group the-game-51bf96a2fc96">
-  <!-- frame: Shrimp Game -->
-  <div class="frame shrimp-gam-51b48ee5bd91">
-    <!-- frame: Board -->
-    <div class="shape frame board-51bbfed419af" id="playboard">
-    </div>
-    <!-- text: level:   1 
+    <div class="group the-game-51bf96a2fc96">
+      <!-- frame: Shrimp Game -->
+      <div class="frame shrimp-gam-51b48ee5bd91">
+        <!-- frame: Board -->
+        <div class="shape frame board-51bbfed419af" id="playboard"></div>
+        <!-- text: level:   1 
   XP:   0     -->
-    <div class="shape text level-1-51be267a60a0">
-      <div class="text-node-html" id="html-text-node-72df8b65-0d81-80aa-8005-51be267a60a0" data-x="669" data-y="929">
-        <div class="root rich-text root-0" style="display:flex;white-space:break-spaces;align-items:flex-start" xmlns="http://www.w3.org/1999/xhtml">
-          <div class="paragraph-set root-0-paragraph-set-0">
-            <p class="paragraph root-0-paragraph-set-0-paragraph-0" dir="ltr"><span class="text-node root-0-paragraph-set-0-paragraph-0-text-0" style="color:rgba(52, 0, 41, 1);text-transform:none;line-break:auto;overflow-wrap:initial;white-space:pre;font-size:48px;text-rendering:geometricPrecision;caret-color:rgba(52, 0, 41, 1);text-decoration:none;--font-id:gfont-staatliches;--fills:[[&quot;^ &quot;,&quot;~:fill-color&quot;,&quot;#340029&quot;,&quot;~:fill-opacity&quot;,1]];letter-spacing:0px;font-family:&quot;Staatliches&quot;;font-style:normal;font-weight:400">level: 1 </span></p>
-            <p class="paragraph root-0-paragraph-set-0-paragraph-1" dir="ltr"><span class="text-node root-0-paragraph-set-0-paragraph-1-text-0" style="color:rgba(52, 0, 41, 1);text-transform:none;line-break:auto;overflow-wrap:initial;white-space:pre;font-size:48px;text-rendering:geometricPrecision;caret-color:rgba(52, 0, 41, 1);text-decoration:none;--font-id:gfont-staatliches;--fills:[[&quot;^ &quot;,&quot;~:fill-color&quot;,&quot;#340029&quot;,&quot;~:fill-opacity&quot;,1]];letter-spacing:0px;font-family:&quot;Staatliches&quot;;font-style:normal;font-weight:400"> XP: 0 </span></p>
+        <div class="shape text level-1-51be267a60a0">
+          <div
+            class="text-node-html"
+            id="html-text-node-72df8b65-0d81-80aa-8005-51be267a60a0"
+            data-x="669"
+            data-y="929"
+          >
+            <div
+              class="root rich-text root-0"
+              style="
+                display: flex;
+                white-space: break-spaces;
+                align-items: flex-start;
+              "
+              xmlns="http://www.w3.org/1999/xhtml"
+            >
+              <div class="paragraph-set root-0-paragraph-set-0">
+                <p
+                  class="paragraph root-0-paragraph-set-0-paragraph-0"
+                  dir="ltr"
+                >
+                  <span
+                    class="text-node root-0-paragraph-set-0-paragraph-0-text-0"
+                    style="
+                      color: rgba(52, 0, 41, 1);
+                      text-transform: none;
+                      line-break: auto;
+                      overflow-wrap: initial;
+                      white-space: pre;
+                      font-size: 48px;
+                      text-rendering: geometricPrecision;
+                      caret-color: rgba(52, 0, 41, 1);
+                      text-decoration: none;
+                      --font-id: gfont-staatliches;
+                      --fills: [[ '^ ', '~:fill-color', '#340029',
+                        '~:fill-opacity', 1]];
+                      letter-spacing: 0px;
+                      font-family: 'Staatliches';
+                      font-style: normal;
+                      font-weight: 400;
+                    "
+                    >level: 1
+                  </span>
+                </p>
+                <p
+                  class="paragraph root-0-paragraph-set-0-paragraph-1"
+                  dir="ltr"
+                >
+                  <span
+                    class="text-node root-0-paragraph-set-0-paragraph-1-text-0"
+                    style="
+                      color: rgba(52, 0, 41, 1);
+                      text-transform: none;
+                      line-break: auto;
+                      overflow-wrap: initial;
+                      white-space: pre;
+                      font-size: 48px;
+                      text-rendering: geometricPrecision;
+                      caret-color: rgba(52, 0, 41, 1);
+                      text-decoration: none;
+                      --font-id: gfont-staatliches;
+                      --fills: [[ '^ ', '~:fill-color', '#340029',
+                        '~:fill-opacity', 1]];
+                      letter-spacing: 0px;
+                      font-family: 'Staatliches';
+                      font-style: normal;
+                      font-weight: 400;
+                    "
+                  >
+                    XP: 0
+                  </span>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-    <!-- text:  WEAPON:   NONE
+        <!-- text:  WEAPON:   NONE
 HP:   10
  -->
-    <div class="shape text weapon-51bf3aa27251">
-      <div class="text-node-html" id="html-text-node-72df8b65-0d81-80aa-8005-51bf3aa27251" data-x="1517.9999999999998" data-y="929">
-        <div class="root rich-text root-0" style="display:flex;white-space:break-spaces;align-items:flex-start" xmlns="http://www.w3.org/1999/xhtml">
-          <div class="paragraph-set root-0-paragraph-set-0">
-            <p class="paragraph root-0-paragraph-set-0-paragraph-0" dir="ltr"><span class="text-node root-0-paragraph-set-0-paragraph-0-text-0" style="color:rgba(52, 0, 41, 1);text-transform:none;line-break:auto;overflow-wrap:initial;white-space:pre;font-size:48px;text-rendering:geometricPrecision;caret-color:rgba(52, 0, 41, 1);text-decoration:none;--font-id:gfont-staatliches;--fills:[[&quot;^ &quot;,&quot;~:fill-color&quot;,&quot;#340029&quot;,&quot;~:fill-opacity&quot;,1]];letter-spacing:0px;font-family:&quot;Staatliches&quot;;font-style:normal;font-weight:400"> WEAPON: NONE</span></p>
-            <p class="paragraph root-0-paragraph-set-0-paragraph-1" dir="ltr"><span class="text-node root-0-paragraph-set-0-paragraph-1-text-0" style="color:rgba(52, 0, 41, 1);text-transform:none;line-break:auto;overflow-wrap:initial;white-space:pre;font-size:48px;text-rendering:geometricPrecision;caret-color:rgba(52, 0, 41, 1);text-decoration:none;--font-id:gfont-staatliches;--fills:[[&quot;^ &quot;,&quot;~:fill-color&quot;,&quot;#340029&quot;,&quot;~:fill-opacity&quot;,1]];letter-spacing:0px;font-family:&quot;Staatliches&quot;;font-style:normal;font-weight:400">HP: 10</span></p>
-            <p class="paragraph root-0-paragraph-set-0-paragraph-2" dir="ltr"><span class="text-node root-0-paragraph-set-0-paragraph-2-text-0" style="color:rgba(52, 0, 41, 1);text-transform:none;line-break:auto;overflow-wrap:initial;white-space:pre;font-size:48px;text-rendering:geometricPrecision;caret-color:rgba(52, 0, 41, 1);text-decoration:none;--font-id:gfont-staatliches;--fills:[[&quot;^ &quot;,&quot;~:fill-color&quot;,&quot;#340029&quot;,&quot;~:fill-opacity&quot;,1]];letter-spacing:0px;font-family:&quot;Staatliches&quot;;font-style:normal;font-weight:400"> </span></p>
+        <div class="shape text weapon-51bf3aa27251">
+          <div
+            class="text-node-html"
+            id="html-text-node-72df8b65-0d81-80aa-8005-51bf3aa27251"
+            data-x="1517.9999999999998"
+            data-y="929"
+          >
+            <div
+              class="root rich-text root-0"
+              style="
+                display: flex;
+                white-space: break-spaces;
+                align-items: flex-start;
+              "
+              xmlns="http://www.w3.org/1999/xhtml"
+            >
+              <div class="paragraph-set root-0-paragraph-set-0">
+                <p
+                  class="paragraph root-0-paragraph-set-0-paragraph-0"
+                  dir="ltr"
+                >
+                  <span
+                    class="text-node root-0-paragraph-set-0-paragraph-0-text-0"
+                    style="
+                      color: rgba(52, 0, 41, 1);
+                      text-transform: none;
+                      line-break: auto;
+                      overflow-wrap: initial;
+                      white-space: pre;
+                      font-size: 48px;
+                      text-rendering: geometricPrecision;
+                      caret-color: rgba(52, 0, 41, 1);
+                      text-decoration: none;
+                      --font-id: gfont-staatliches;
+                      --fills: [[ '^ ', '~:fill-color', '#340029',
+                        '~:fill-opacity', 1]];
+                      letter-spacing: 0px;
+                      font-family: 'Staatliches';
+                      font-style: normal;
+                      font-weight: 400;
+                    "
+                  >
+                    WEAPON: NONE</span
+                  >
+                </p>
+                <p
+                  class="paragraph root-0-paragraph-set-0-paragraph-1"
+                  dir="ltr"
+                >
+                  <span
+                    class="text-node root-0-paragraph-set-0-paragraph-1-text-0"
+                    style="
+                      color: rgba(52, 0, 41, 1);
+                      text-transform: none;
+                      line-break: auto;
+                      overflow-wrap: initial;
+                      white-space: pre;
+                      font-size: 48px;
+                      text-rendering: geometricPrecision;
+                      caret-color: rgba(52, 0, 41, 1);
+                      text-decoration: none;
+                      --font-id: gfont-staatliches;
+                      --fills: [[ '^ ', '~:fill-color', '#340029',
+                        '~:fill-opacity', 1]];
+                      letter-spacing: 0px;
+                      font-family: 'Staatliches';
+                      font-style: normal;
+                      font-weight: 400;
+                    "
+                    >HP: 10</span
+                  >
+                </p>
+                <p
+                  class="paragraph root-0-paragraph-set-0-paragraph-2"
+                  dir="ltr"
+                >
+                  <span
+                    class="text-node root-0-paragraph-set-0-paragraph-2-text-0"
+                    style="
+                      color: rgba(52, 0, 41, 1);
+                      text-transform: none;
+                      line-break: auto;
+                      overflow-wrap: initial;
+                      white-space: pre;
+                      font-size: 48px;
+                      text-rendering: geometricPrecision;
+                      caret-color: rgba(52, 0, 41, 1);
+                      text-decoration: none;
+                      --font-id: gfont-staatliches;
+                      --fills: [[ '^ ', '~:fill-color', '#340029',
+                        '~:fill-opacity', 1]];
+                      letter-spacing: 0px;
+                      font-family: 'Staatliches';
+                      font-style: normal;
+                      font-weight: 400;
+                    "
+                    > </span
+                  >
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-    <!-- group: shop button -->
-    <div class="group shop-butto-51c2ca7562b8">
-      <!-- rect: Rectangle -->
-      <div class="shape rect rectangle-51c1af4bb5e5">
-      </div>
-      <!-- text: open shop -->
-      <div class="shape text open-shop-51c1c273b1f9">
-        <div class="text-node-html" id="html-text-node-72df8b65-0d81-80aa-8005-51c1c273b1f9" data-x="1133" data-y="962">
-          <div class="root rich-text root-0" style="display:flex;white-space:break-spaces;align-items:flex-start" xmlns="http://www.w3.org/1999/xhtml">
-            <div class="paragraph-set root-0-paragraph-set-0">
-              <p class="paragraph root-0-paragraph-set-0-paragraph-0" dir="ltr"><span class="text-node root-0-paragraph-set-0-paragraph-0-text-0" style="color:rgba(52, 0, 41, 1);text-transform:none;line-break:auto;overflow-wrap:initial;white-space:pre;font-size:48px;text-rendering:geometricPrecision;caret-color:rgba(52, 0, 41, 1);text-decoration:none;--font-id:gfont-staatliches;--fills:[[&quot;^ &quot;,&quot;~:fill-color&quot;,&quot;#340029&quot;,&quot;~:fill-opacity&quot;,1]];letter-spacing:0px;font-family:&quot;Staatliches&quot;;font-style:normal;font-weight:400">open shop</span></p>
+        <!-- group: shop button -->
+        <div class="group shop-butto-51c2ca7562b8">
+          <!-- rect: Rectangle -->
+          <div class="shape rect rectangle-51c1af4bb5e5"></div>
+          <!-- text: open shop -->
+          <div class="shape text open-shop-51c1c273b1f9">
+            <div
+              class="text-node-html"
+              id="html-text-node-72df8b65-0d81-80aa-8005-51c1c273b1f9"
+              data-x="1133"
+              data-y="962"
+            >
+              <div
+                class="root rich-text root-0"
+                style="
+                  display: flex;
+                  white-space: break-spaces;
+                  align-items: flex-start;
+                "
+                xmlns="http://www.w3.org/1999/xhtml"
+              >
+                <div class="paragraph-set root-0-paragraph-set-0">
+                  <p
+                    class="paragraph root-0-paragraph-set-0-paragraph-0"
+                    dir="ltr"
+                  >
+                    <span
+                      class="text-node root-0-paragraph-set-0-paragraph-0-text-0"
+                      style="
+                        color: rgba(52, 0, 41, 1);
+                        text-transform: none;
+                        line-break: auto;
+                        overflow-wrap: initial;
+                        white-space: pre;
+                        font-size: 48px;
+                        text-rendering: geometricPrecision;
+                        caret-color: rgba(52, 0, 41, 1);
+                        text-decoration: none;
+                        --font-id: gfont-staatliches;
+                        --fills: [[ '^ ', '~:fill-color', '#340029',
+                          '~:fill-opacity', 1]];
+                        letter-spacing: 0px;
+                        font-family: 'Staatliches';
+                        font-style: normal;
+                        font-weight: 400;
+                      "
+                      >open shop</span
+                    >
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
 
-
-
-<script src="shrimpGame.css"></script>
-</body>
+    <script src="shrimpGame.css"></script>
+  </body>
 </html>
