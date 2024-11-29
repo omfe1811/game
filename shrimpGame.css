@@ -316,4 +316,9 @@ HP:   10
 
   /* Css from penpot
   
->>>>>>> d7ba7c9850d682974d8c864848eec38fcf86310f
+/* // d7ba7c9850d682974d8c864848eec38fcf86310f */
+.root rich-text root-0 {
+                display: flex;
+                white-space: break-spaces;
+                align-items: flex-start;
+             }
