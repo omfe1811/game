@@ -1,11 +1,13 @@
 Priority, draft for Dev to check:
+put style from html to css file
+change classes
 Fix the size3 of the wireframe
 make the buttons start, shop responsive
-Make javascript for weapon 
+Make javascript for weapon
 Make crab enemy
 Make coin collection in JavaScript
 Make wireframe in penpot
-Create Hp 
+Create Hp
 Create XP
 
 
@@ -22,4 +24,3 @@ Create more monsters
 Extra
 Make art
 Make sounds
-
