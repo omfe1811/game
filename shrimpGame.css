@@ -75,6 +75,7 @@ body {
 }
 .open-shop-51c1c273b1f9 .root-0 {
   
+<<<<<<< HEAD
   
   display: flex;
   white-space: break-spaces;
@@ -306,3 +307,13 @@ HP:   10
 .grid-cell {
   border: 5px pink;
 }
+=======
+  .cell {
+    background-color: #ccc;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* Css from penpot
+  
+>>>>>>> d7ba7c9850d682974d8c864848eec38fcf86310f
