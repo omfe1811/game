@@ -9,6 +9,7 @@ Make coin collection in JavaScript
 Make wireframe in penpot
 Create Hp
 Create XP
+make the map work
 
 
 
